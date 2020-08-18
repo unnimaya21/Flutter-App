@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:pjt/grn.dart';
 import 'package:pjt/prinlist.dart';
 import 'package:pjt/home.dart';
+import 'package:pjt/stockreport.dart';
 
 class Dashboard extends StatefulWidget {
   @override
@@ -50,7 +52,15 @@ class _DashboardState extends State<Dashboard> {
             Card(
               margin: EdgeInsets.all(8.0),
               child: InkWell(
-                onTap: () => {},
+                onTap: () => {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return StockReport();
+                      },
+                    ),
+                  )
+                },
                 child: Center(
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
@@ -70,7 +80,7 @@ class _DashboardState extends State<Dashboard> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) {
-                        return PrinList();
+                        return GrnReport();
                       },
                     ),
                   )
