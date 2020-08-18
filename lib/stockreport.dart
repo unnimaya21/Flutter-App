@@ -11,9 +11,11 @@ class StockReport extends StatelessWidget {
           appBar: AppBar(
             title: Text("Stock Report"),
           ),
-          body: ListView(
-            children: <Widget>[
+          body: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child:
               DataTable(
+
                 columns: [
                   DataColumn(label: Text("Prod Code")),
                   DataColumn(label: Text("Prod Name")),
@@ -28,11 +30,12 @@ class StockReport extends StatelessWidget {
                     DataCell(Text("prod")),
                   ])
                 ],
-              )
-            ],
+              ),
+          )
+
           )
           // ]),
-          ),
-    );
+          );
+
   }
 }
