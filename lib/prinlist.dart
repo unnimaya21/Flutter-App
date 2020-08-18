@@ -9,7 +9,7 @@ class PrinList extends StatefulWidget {
 class _PrinListState extends State<PrinList> {
   @override
   var Princode = [
-    '002',
+    '0020',
     '003',
     '004',
     '005',
