@@ -60,6 +60,11 @@ class _PrinListState extends State<PrinList> {
                 padding: const EdgeInsets.all(8.0),
                 child: Card(
                   child: ListTile(
+                    onTap: () {
+                      print(Prinname[index]);
+                      // final SnackBar = SnackBar(content: Text(Prinname[index]));
+                      // Scaffold.of(context).showSnackBar(snackBar);
+                    },
                     title: Text(
                       Prinname[index],
                       style: TextStyle(fontSize: 20),
