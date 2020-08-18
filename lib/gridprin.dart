@@ -16,7 +16,7 @@ class _DashboardState extends State<Dashboard> {
       appBar: AppBar(
         title: Text("Menu"),
         elevation: .1,
-        backgroundColor: Color.fromRGBO(49, 87, 110, 1.0),
+        backgroundColor: Color.fromRGBO(59, 87, 110, 1.0),
       ),
       body: Container(
         padding: EdgeInsets.all(10.0),
