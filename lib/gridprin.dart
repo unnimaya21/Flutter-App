@@ -3,6 +3,7 @@ import 'package:pjt/grn.dart';
 import 'package:pjt/prinlist.dart';
 import 'package:pjt/home.dart';
 import 'package:pjt/stockreport.dart';
+import 'package:pjt/grn.dart';
 
 class Dashboard extends StatefulWidget {
   @override
