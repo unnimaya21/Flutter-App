@@ -22,10 +22,28 @@ class StockReport extends StatelessWidget {
                 ],
                 rows: [
                   DataRow(cells: [
-                    DataCell(Text("prod")),
-                    DataCell(Text("prod")),
-                    DataCell(Text("prod")),
-                    DataCell(Text("prod")),
+                    DataCell(Text("PRD01")),
+                    DataCell(Text("PRODUCT ONE")),
+                    DataCell(Text("PCS")),
+                    DataCell(Text("24")),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text("PRD01")),
+                    DataCell(Text("PRODUCT ONE")),
+                    DataCell(Text("PCS")),
+                    DataCell(Text("24")),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text("PRD01")),
+                    DataCell(Text("PRODUCT ONE")),
+                    DataCell(Text("PCS")),
+                    DataCell(Text("24")),
+                  ]),
+                  DataRow(cells: [
+                    DataCell(Text("PRD01")),
+                    DataCell(Text("PRODUCT ONE")),
+                    DataCell(Text("PCS")),
+                    DataCell(Text("24")),
                   ])
                 ],
               ),
